@@ -6,7 +6,7 @@ use std::env;
 #[no_mangle]
 pub fn run() {
     let username: String = match env::var("username") {
-        Err(_) => "jaykchen".to_string(),
+        Err(_) => "jaykchen#6793".to_string(),
         Ok(name) => name,
     };
 
