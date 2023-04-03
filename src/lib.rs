@@ -7,7 +7,7 @@ use std::env;
 pub fn run() {
     dotenv().ok();
     let username: String = match env::var("username") {
-        Err(_) => "Vivian_Hu".to_string(),
+        Err(_) => "Vivian Hu".to_string(),
         Ok(name) => name,
     };
 
