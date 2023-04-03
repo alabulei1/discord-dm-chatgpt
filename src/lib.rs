@@ -7,12 +7,12 @@ use std::env;
 pub fn run() {
     dotenv().ok();
     let username: String = match env::var("username") {
-        Err(_) => "jaykchen".to_string(),
+        Err(_) => "Vivian_Hu".to_string(),
         Ok(name) => name,
     };
 
     let openai_key_name: String = match env::var("openai_key_name") {
-        Err(_) => "jaykchen".to_string(),
+        Err(_) => "chatmichael".to_string(),
         Ok(name) => name,
     };
 
